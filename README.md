@@ -12,9 +12,10 @@ There is a hosted version at https://x-player.moureau.dev
 
 ## Screenshots
 
-![image](https://github.com/mococa/x-player/assets/13316723/47e6d5a0-380e-4fcc-95d2-418e0bc50f5c)
-![image](https://github.com/mococa/x-player/assets/13316723/09565b11-43f6-4121-94d3-572eded2b68b)
-![image](https://github.com/mococa/x-player/assets/13316723/c2729b88-2cbc-4fd1-9960-e5a00fa393fa)
-![image](https://github.com/mococa/x-player/assets/13316723/433e6c6a-ddec-4004-9547-af1c495e6ff6)
-![image](https://github.com/mococa/x-player/assets/13316723/103a87c4-e021-4eb5-90dd-73299dd94040)
-![image](https://github.com/mococa/x-player/assets/13316723/c47243c1-064f-4905-88bf-e5201e8bb981)
+| Login  | Threads | Creating threads  |
+| ------------- | ------------- | ------------- |
+| ![image](https://github.com/mococa/x-player/assets/13316723/47e6d5a0-380e-4fcc-95d2-418e0bc50f5c) | ![image](https://github.com/mococa/x-player/assets/13316723/09565b11-43f6-4121-94d3-572eded2b68b) | ![image](https://github.com/mococa/x-player/assets/13316723/c2729b88-2cbc-4fd1-9960-e5a00fa393fa)
+
+| Library  | Song | Profile  |
+| ------------- | ------------- | ------------- |
+| ![image](https://github.com/mococa/x-player/assets/13316723/433e6c6a-ddec-4004-9547-af1c495e6ff6) | ![image](https://github.com/mococa/x-player/assets/13316723/103a87c4-e021-4eb5-90dd-73299dd94040) | ![image](https://github.com/mococa/x-player/assets/13316723/c47243c1-064f-4905-88bf-e5201e8bb981)
