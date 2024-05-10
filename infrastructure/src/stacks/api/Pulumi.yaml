@@ -1,0 +1,4 @@
+name: x-player-api
+runtime: nodejs
+description: X Player pulumi program
+main: ./index.ts

@@ -1,0 +1,58 @@
+div.library {
+  overflow: auto;
+}
+
+ul.library-song-list {
+  display: flex;
+  flex-flow: column;
+
+  min-height: 100%;
+
+  padding-bottom: 72px;
+
+  &>li {
+    display: flex;
+    gap: 12px;
+
+    cursor: pointer;
+
+    padding: 16px 24px;
+
+    border-bottom: 1px solid #2d3342;
+
+    img {
+      height: 36px;
+      width: 36px;
+
+      border-radius: 4px;
+    }
+
+    &>div {
+      display: flex;
+      flex-flow: column;
+      gap: 3px;
+      flex: 1;
+
+      header {
+        font-weight: 500;
+        font-size: 0.75rem;
+        color: #737c92;
+      }
+
+      div {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        span {
+          font-size: 0.875rem;
+          color: white;
+
+          &:last-of-type {
+            color: #737c92;
+          }
+        }
+      }
+    }
+  }
+}

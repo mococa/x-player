@@ -1,0 +1,30 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #101010;
+  color: #fff;
+  font-family: "Inter", Arial, sans-serif;
+}
+
+a {
+  color: #f15d9f;
+  margin-left: 0.3em;
+}
+
+.bottom-sheet {
+  z-index: 2;
+}
+
+div.bottom-sheet-content {
+  background-color: #1a1a1a;
+}
+
+div.bottom-sheet-content>header div.handler {
+  background-color: #d9d9d92e;
+}

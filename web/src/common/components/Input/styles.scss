@@ -1,0 +1,58 @@
+.form-input {
+  display: block;
+
+  position: relative;
+}
+
+.form-input span {
+  position: absolute;
+  top: 14px;
+  left: 14px;
+
+  cursor: text;
+
+  font-size: 1.25rem;
+
+  transition: 200ms;
+}
+
+.form-input:focus-within span,
+.form-input:has(input:not([data-value=""])) span,
+.form-input:has(textarea:not([data-value=""])) span {
+  top: -24px;
+  left: 0;
+
+  cursor: default;
+
+  font-size: 1rem;
+
+  color: white;
+}
+
+.form-input input,
+.form-input textarea {
+  font-size: 1.2rem;
+
+  padding: 12px;
+
+  width: 100%;
+
+  background-color: #1b1f24;
+
+  color: white;
+
+  outline: 1px solid transparent;
+  border: 2px solid rgba(45, 52, 63, 0.4);
+  border-radius: 4px;
+
+  resize: none;
+
+  transition: 300ms;
+}
+
+.form-input input:focus-visible,
+.form-input textarea:focus-visible,
+.form-input input:focus,
+.form-input textarea:focus {
+  outline: 1px solid #5d6c83;
+}

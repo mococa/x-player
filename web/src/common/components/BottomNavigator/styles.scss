@@ -1,0 +1,34 @@
+footer.bottom-navigator {
+  z-index: 1;
+
+  background-color: inherit;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 16px 72px;
+
+  border-top: 1px solid #2d3342;
+
+  &>a {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    gap: 6px;
+    color: #c0c0c0;
+
+    svg path {
+      stroke: currentColor;
+    }
+
+    &>span {
+      font-size: 0.75rem;
+      color: inherit;
+    }
+
+    &[data-active="true"] {
+      color: white;
+    }
+  }
+}

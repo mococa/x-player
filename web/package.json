@@ -1,0 +1,42 @@
+{
+  "name": "x-player-front-end",
+  "version": "0.0.1",
+  "description": "",
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/cookie": "^0.6.0",
+    "@types/express": "^4.17.21",
+    "@typescript-eslint/eslint-plugin": "^5.12.1",
+    "@typescript-eslint/parser": "^5.12.1",
+    "css-loader": "^6.8.1",
+    "eslint": "8.40.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^8.4.0",
+    "eslint-import-resolver-typescript": "^2.5.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-prettier": "^4.0.0",
+    "mini-css-extract-plugin": "^2.7.6",
+    "nullstack": "~0.20.3",
+    "prettier": "^2.5.1",
+    "sass": "^1.62.1",
+    "sass-loader": "^13.3.2",
+    "style-loader": "^3.3.3",
+    "tsconfig-paths-webpack-plugin": "^4.1.0"
+  },
+  "scripts": {
+    "dev": "npx nullstack start",
+    "start": "node ./.production/server.js",
+    "serve": "yarn build && yarn start",
+    "build": "npx nullstack build"
+  },
+  "dependencies": {
+    "axios": "^1.6.7",
+    "cookie": "^0.6.0",
+    "date-fns": "^3.3.1",
+    "magic-sdk": "^22.1.1",
+    "nullstack-bottomsheet": "^0.0.10",
+    "uuid": "^9.0.1"
+  }
+}

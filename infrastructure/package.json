@@ -1,0 +1,13 @@
+{
+    "name": "x-player-infrastructure",
+    "devDependencies": {
+        "@types/node": "^18"
+    },
+    "dependencies": {
+        "@pulumi/aws": "^6.22.2",
+        "@pulumi/awsx": "^2.5.0",
+        "@pulumi/pulumi": "^3.0.0",
+        "aws-lambda": "^1.0.7",
+        "nullstack-serverless-pulumi-aws": "^0.0.8"
+    }
+}

@@ -1,0 +1,74 @@
+button.button {
+  position: relative;
+
+  cursor: pointer;
+
+  background-color: white;
+
+  color: black;
+
+  border: none;
+  border-radius: 12px;
+
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  padding: 16px;
+
+  font-size: 0.875rem;
+  font-family: Inter, Arial, sans-serif;
+
+  &.icon {
+    padding-right: 24px;
+  }
+
+  &.secondary {
+    background-color: #2d3342;
+    color: #e7e7e7;
+  }
+
+  &>.loader {
+    position: absolute;
+    inset-inline: 0;
+
+    visibility: hidden;
+
+    @keyframes spin {
+      from {
+        transform: rotate(0deg);
+      }
+
+      to {
+        transform: rotate(360deg);
+      }
+    }
+
+    svg {
+      height: 24px;
+      width: 24px;
+
+      animation: spin 800ms linear infinite;
+
+      color: black;
+    }
+  }
+
+  &[disabled] {
+    cursor: default;
+
+    filter: brightness(80%);
+  }
+
+  &[data-loading="true"] {
+    &>.loader {
+      visibility: visible;
+    }
+
+    &>*:not(.loader) {
+      visibility: hidden;
+    }
+
+    color: transparent;
+  }
+}

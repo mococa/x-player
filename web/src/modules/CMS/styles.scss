@@ -1,0 +1,43 @@
+.cms-form {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  gap: 40px;
+
+  padding: 24px;
+  margin-inline: auto;
+
+  max-width: 400px;
+  width: 100%;
+
+  &>label,
+  button {
+    width: 100%;
+  }
+
+  button {
+    justify-content: center;
+  }
+
+  &>div.dropfile {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+
+    padding: 32px;
+
+    border-radius: 12px;
+    border: 1px dashed;
+
+    &>div {
+      display: flex;
+      flex-flow: column;
+      align-items: center;
+      gap: 12px;
+
+      input[type="file"] {
+        //display: none;
+      }
+    }
+  }
+}

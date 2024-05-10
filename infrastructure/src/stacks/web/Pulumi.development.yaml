@@ -1,0 +1,5 @@
+config:
+  aws:region: sa-east-1
+  x-player-web:certificate_arn:
+    secure: AAABACDk651kvma6tMfJVGqiG5SsVI1dTFqOtR1M6NiAcTwuhd3mpw6x6AYAbH+Zw1MDdl0YEXwWfmVM+73GEYuolNp1O0bSr5oDcPd/UEStKJggX7QHOr/QVw4J8QNtZ/fIxbv32gEv/nILJKUx+lO3EA==
+  x-player-web:environment: development
